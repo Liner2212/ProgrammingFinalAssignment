@@ -21,5 +21,11 @@ public class PlayerMove2D : MonoBehaviour
             // Jump: keep my sideways speed, shoot me upward
             body.linearVelocity = new Vector2(body.linearVelocity.x, jumpSpeed);
         }
+        if (Keyboard.current.leftShiftKey.isPressed)
+        {
+            //I want to make the plyer move faster when holding down the left shift key
+            body.linearVelocity = new Vector2(x * moveSpeed * 2, body.linearVelocity.y);
+            //took the same from before in the script, times 2 to make it move faster
+        }
     }
 }

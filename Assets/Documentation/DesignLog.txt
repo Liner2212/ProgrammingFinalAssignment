@@ -1,0 +1,23 @@
+Design.Log
+
+
+
+So far: 
+Earlier today: Put in a player placeholder, started some blocking out, a camera to follow the player and thinking over the design, added in a enemy placeholder from the original 2d gametemplate
+3/11/2026 18:18
+Used the 2d player mvoe script from class, added left shift to increase speed, thinking of making it a public variable to be able to tweak it in the inspector. 
+I want to add a double jump mechanic and how to limit the amount of time the player can sprint for.
+
+The player, background and environment is placeholders right now 
+
+Current problem: the diamond pickup, I added the coin and playercoins script from class lessons, and changed coin to diamonds, however the player is not picking up the diamonds,
+they are not disappearing. The text is functioning as it should, the coins have 2d box colliders with isTrigger checked, the player has a 2d box collider and a rigidbody2d with dynamic checked. 
+Trying to figure out why the diamonds are not being picked up. 
+
+Next things to do: 
+Add in obstacles/ a double jump mechanic, deathzones, checkpoints , solve the diamond pickups, finish the blockout
+
+18:56
+
+Pickup fixed, just had to be 2d on ontriggerenter in script, missed this, added more grayboxing, small paths. deathzones added
+Deathzones are not working currently, the player is not dying when they touch them 
