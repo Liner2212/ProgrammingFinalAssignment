@@ -18,13 +18,16 @@ Documents
 In Unity
 - [ ] Nothing required. Bonus: a quick greybox test of my biggest risk
 
-Peer review - reviewed by: ________ &nbsp; Go / Not yet: ________
+Peer review - reviewed by: _Viiktoria______ &nbsp; Go / Not yet: ________
 What they said, in one line:
+The pillars are a bit unclear, there is a lot of features so it is hard to picture but the idea seems interesting and like it could be fun to play and explore. 
 
 Feedback from Brian (write it down while you talk):
 - Fun: what's fun about it, in one sentence:
+The ghost idea, being able to utilize the ghost in different ways and the movement to make the player fantasy. 
 - Scope: the one thing to cut or simplify:
-- By Wednesday I will prove ________ is playable.
+Alot of the abilities as well as narrow down what it will be exactly, the gameplay loop, and what is reasonable within a week to do
+- By Wednesday I will prove __my project______ is playable.
 
 Not yet? That's normal. Fix it, then post your revised one-pager in the "Final Project Concepts" thread by Tuesday 18:00.
 
@@ -35,9 +38,11 @@ Not yet? That's normal. Fix it, then post your revised one-pager in the "Final P
 Required
 - [ ] The core loop is playable in a greybox (plain shapes, no art, no menus yet)
 - [ ] Must list: every Must feature, with an hour estimate. Add Should and Could features if you have them.
+* The must features and such are in the links document in documentation 
 
 Quick ones (still needed, rough is fine, a few minutes each)
 - [ ] Content scope: a short list of counts (example: 1 level, 2 enemy types, 5 sounds)
+1 level, 1 enemy type, 1 ability, 3 sounds, 1 win screen, one main menu, 1 pause screen, 1 HUD, 1 animated player, 1 movement script 
 - [ ] Roadmap: 4 lines, one per stage, each with a date
 - [ ] Screen flow: a phone photo of a paper sketch of your screens (start, HUD, pause, win and/or lose)
 

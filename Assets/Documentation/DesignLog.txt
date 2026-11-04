@@ -20,4 +20,14 @@ Add in obstacles/ a double jump mechanic, deathzones, checkpoints , solve the di
 18:56
 
 Pickup fixed, just had to be 2d on ontriggerenter in script, missed this, added more grayboxing, small paths. deathzones added
-Deathzones are not working currently, the player is not dying when they touch them 
+Deathzones are not working currently, the player is not dying when they touch them
+Added more grayboxing, deathzones and jumpboost pads
+
+4/11/2026
+
+More pickups laid out, looking for feedback on how to make the level more interesting and challenging, also added a checkpoint and deathzone. Checkpoint not working yet, 
+also want to go into the player script and fix the double jump and also so the player cannot jsut fly. 
+
+Currently: It is the second gate, the level feels a bit one dimensional at the moment? feedback needed. 
+Looking at the slides on 2d and thinking of the movement script. 
+Added just deathzones to the obstacles and enemies for now until health script functionality is added.
