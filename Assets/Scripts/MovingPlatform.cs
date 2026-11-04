@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[DefaultExecutionOrder(-100)]   // makes sure this applies before any other movement scripts
+[DefaultExecutionOrder(-100)]   
 public class MovingPlatform : MonoBehaviour
 {
     public Vector3 direction = Vector3.right;
@@ -20,7 +20,7 @@ public class MovingPlatform : MonoBehaviour
         // 1. Remember where we were
         Vector3 oldPosition = transform.position;
 
-        // 2. Move the platform (back and forth)
+        // back and forth 
         float t = Mathf.PingPong(Time.time * speed, distance);
         transform.position = startPosition + direction.normalized * t;
     }
