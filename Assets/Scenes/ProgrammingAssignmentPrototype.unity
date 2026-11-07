@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 3
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 8935c8fedfd343c48b7af90cdfe6b8c7, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -1893,7 +1893,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &245607224
 SpriteRenderer:
   serializedVersion: 2
@@ -1945,7 +1945,7 @@ SpriteRenderer:
   m_MaskInteraction: 0
   m_Sprite: {fileID: -5154388667699741159, guid: 4e362b20a2f14334ba8489c2c7f01b9e,
     type: 3}
-  m_Color: {r: 0.4566037, g: 0.062191214, b: 0.057721592, a: 0.41568628}
+  m_Color: {r: 0.3132075, g: 0.06336702, b: 0.060868613, a: 0.41568628}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -7428,8 +7428,8 @@ Transform:
   m_GameObject: {fileID: 778602481}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 1, w: -0.00034827192}
-  m_LocalPosition: {x: 0.7964821, y: -2.9858494, z: 0}
-  m_LocalScale: {x: 31.899225, y: 12.007199, z: 2.7748}
+  m_LocalPosition: {x: -0.7483, y: -2.9145, z: 0}
+  m_LocalScale: {x: 28.80791, y: 12.151285, z: 2.7748}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 645575585}
