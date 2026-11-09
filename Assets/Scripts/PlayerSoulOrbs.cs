@@ -20,7 +20,7 @@ public class PlayerSoulOrbs : MonoBehaviour
 
     void ShowSoulOrbs()             
     {
-        SoulOrbs.text = "SoulOrbs: " + SoulOrbs + " / " + totalSoulOrbs;
+       SoulOrbsText.text   = "SoulOrbs: " + SoulOrbs + " / " + totalSoulOrbs;
     }
 
 

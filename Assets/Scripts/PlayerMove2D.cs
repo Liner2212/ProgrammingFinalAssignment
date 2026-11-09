@@ -20,7 +20,11 @@ public class PlayerMove2D : MonoBehaviour
     //the number of jumps the player can do, adding in the double jump
     public int resetJumpCount;
 
-    void Update()
+
+    
+   
+
+    void FixedUpdate() //
     {
         float x = 0f;
         if (Keyboard.current.aKey.isPressed) { x = -1f; }
@@ -28,13 +32,15 @@ public class PlayerMove2D : MonoBehaviour
 
         // Left and right come from me. Up and down I leave alone, so gravity still works.
         body.linearVelocity = new Vector2(x * moveSpeed, body.linearVelocity.y);
+
         isGrounded = Physics2D.OverlapCircle(checkGround.position, checkRadius, Ground);
         //okay so, I watched videos on this, the script here as i understand is that isGrounded is defined by checking if the physics2D overlap circle is touching the ground
         //the checkground.position is to check the position of the player, then check the radius and if the ground is within that
+        
 
         if (Keyboard.current.spaceKey.wasPressedThisFrame && JumpCount > 0) //checks if space is pressed and the isgrounded to check that the player is also in the ground, no more float fly away to infinity
         {
-            
+            Debug.Log("Space was pressed");
             body.linearVelocity = new Vector2(body.linearVelocity.x, jumpSpeed);
             JumpCount--; //decrease the jump count by 1 each time space is pressed and in the air. 
         }
@@ -49,4 +55,7 @@ public class PlayerMove2D : MonoBehaviour
             //took the same from before in the script, times 2 to make it move faster
         }
     }
+
+
+
 }
