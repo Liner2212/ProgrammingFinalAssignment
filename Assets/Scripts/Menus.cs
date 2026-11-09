@@ -1,11 +1,12 @@
+using Unity.VisualScripting;
 using UnityEngine;
-using StarterAssets;
+using UnityEngine.InputSystem;
+
 
 public class Menus : MonoBehaviour
 {
     public GameObject startPanel;
-    public ThirdPersonController player;
-    public StarterAssetsInputs playerInput;
+    public GameObject pausePanel;
 
     void Start()
     {
@@ -20,6 +21,26 @@ public class Menus : MonoBehaviour
         SetMenuOpen(false);
     }
 
+    public void PauseGame()
+    {
+       if (Keyboard.current.escapeKey.wasPressedThisFrame)
+        {
+            pausePanel.SetActive(true);
+            SetMenuOpen(true);
+        }
+    }
+
+    public void ResumeGame()
+    {
+        pausePanel.SetActive(false);
+        SetMenuOpen(false);
+    }
+
+public void QuitGame()
+    {
+        Application.Quit();
+    }
+
     void SetMenuOpen(bool open)
     {
         if (open)
@@ -32,8 +53,7 @@ public class Menus : MonoBehaviour
             Time.timeScale = 1;
             Cursor.lockState = CursorLockMode.Locked;
         }
-        player.LockCameraPosition = open;
-        playerInput.cursorLocked = !open;
+      
     }
 
 
