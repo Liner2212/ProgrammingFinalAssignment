@@ -9,7 +9,8 @@ public class Goal : MonoBehaviour
     void OnTriggerEnter2D(Collider2D other)
     {
         // The player made it
-        reached = true;
+        GameManager.Instance.Win();
+
     }
 
     void OnGUI()
