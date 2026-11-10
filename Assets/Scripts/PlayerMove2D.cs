@@ -24,7 +24,7 @@ public class PlayerMove2D : MonoBehaviour
     
    
 
-    void FixedUpdate() //
+    void Update() //
     {
         float x = 0f;
         if (Keyboard.current.aKey.isPressed) { x = -1f; }
