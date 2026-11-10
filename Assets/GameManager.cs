@@ -13,6 +13,13 @@ public class GameManager : MonoBehaviour
     // An announcement, like OnCoinCollected. This one carries a GameState.
     public static event System.Action<GameState> OnStateChanged;
 
+    public static GameManager Instance;   // NEW, below OnStateChanged
+
+    private void Awake()
+    {
+        Instance = this;   // NEW, below OnStateChanged
+    }
+
     // Below OnStateChanged
     void Start()                       // CHANGED: replace your Start with this
     {
@@ -60,5 +67,7 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 1;   // the speed survives a reload, so reset it
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
+
+    public void Win() { SetState(GameState.Won); }
 
 }
