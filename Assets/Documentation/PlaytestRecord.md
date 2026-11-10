@@ -17,7 +17,7 @@ At least 3 testers. Required for the playtest, Thursday Nov 12.
 
 | Tester | Did they win, lose or quit? When? | Where did they get stuck or confused? | One thing I saw them do |
 |---|---|---|---|
-| 1. | | | |
+| 1. lose and quit|Mid way point | get stuck to the walls| |
 | 2. | | | |
 | 3. | | | |
 
@@ -29,4 +29,4 @@ At least 3 testers. Required for the playtest, Thursday Nov 12.
 
 What did you see, and what would you change because of it?
 
-> I saw ___, so I would change ___.
+> I saw _them get stuck to the walls__, so I would change _the wall climb mechanic and try to fix this__.
