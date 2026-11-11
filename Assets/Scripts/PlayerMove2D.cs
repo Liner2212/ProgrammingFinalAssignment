@@ -9,6 +9,7 @@ public class PlayerMove2D : MonoBehaviour
 
     //for sprite flip
     public SpriteRenderer spriteRenderer;
+    public Animator animator;
 
     public bool isGrounded;
     //player is grounded check, bool is yes or no
@@ -24,8 +25,12 @@ public class PlayerMove2D : MonoBehaviour
     public int resetJumpCount;
        void Start()
     { //get my player sprite
+      
         if (spriteRenderer == null)
             spriteRenderer = GetComponent<SpriteRenderer>();
+
+        if (animator == null)
+            animator = GetComponent<Animator>();
     }
 
 
@@ -57,8 +62,16 @@ public class PlayerMove2D : MonoBehaviour
             Debug.Log("Space was pressed");
             body.linearVelocity = new Vector2(body.linearVelocity.x, jumpSpeed);
             JumpCount--; //decrease the jump count by 1 each time space is pressed and in the air. 
+
+            if (animator != null)
+                animator.SetBool("isJumping", true);
         }
-        if (isGrounded) JumpCount = resetJumpCount;
+        if (isGrounded)
+        {
+            JumpCount = resetJumpCount;
+            if (animator != null)
+                animator.SetBool("isJumping", false);
+        }
         Debug.Log("jumpcounted");
         //I want to make it so if the player is grounded the jump counter resets back again
 
@@ -68,6 +81,12 @@ public class PlayerMove2D : MonoBehaviour
             body.linearVelocity = new Vector2(x * moveSpeed * 2, body.linearVelocity.y);
             //took the same from before in the script, times 2 to make it move faster
         }
+
+        if (animator != null) //isRunning will be true when moving, detect via code and animator
+        {
+            animator.SetBool("isRunning", x !=0); //instead of true, this should check if it´s above 0? if there is any input at all
+        }
+
     }
 
 
