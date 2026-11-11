@@ -45,11 +45,11 @@ public class PlayerMove2D : MonoBehaviour
 
         if (x > 0) //handle flipping, if x is greater than 0 then no flipping, and vice versa
             {
-            spriteRenderer.flipX = false; 
+            spriteRenderer.flipX = true; 
 
         }
         if (x < 0)
-        {  spriteRenderer.flipX = true;}
+        {  spriteRenderer.flipX = false;}
         
 
         if (Keyboard.current.spaceKey.wasPressedThisFrame && JumpCount > 0) //checks if space is pressed and the isgrounded to check that the player is also in the ground, no more float fly away to infinity
