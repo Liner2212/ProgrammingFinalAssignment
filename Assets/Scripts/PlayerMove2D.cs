@@ -5,6 +5,8 @@ public class PlayerMove2D : MonoBehaviour
 {
     public Rigidbody2D body;
     public float moveSpeed = 5f;
+
+    //tweaked in inspector to 6, small change but it feels better overall and very fast with shift down which is what i wanted
     public float jumpSpeed = 7f;
 
     //for sprite flip
@@ -22,6 +24,7 @@ public class PlayerMove2D : MonoBehaviour
 
     public int JumpCount = 2; 
     //the number of jumps the player can do, adding in the double jump
+    //changed to 1 in inspector, twice felt too much and too easy 
     public int resetJumpCount;
        void Start()
     { //get my player sprite
