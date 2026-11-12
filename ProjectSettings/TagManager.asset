@@ -6,6 +6,8 @@ TagManager:
   tags:
   - TutorialRequirement
   - wall
+  - WeakPoint
+  - GhostWall
   layers:
   - Default
   - TransparentFX

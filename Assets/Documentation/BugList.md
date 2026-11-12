@@ -1,7 +1,7 @@
 # Bug List - Final Project
 
-**Name:**
-**Game title:**
+**carolina Malmros:**
+**:**
 
 Put this file in `Assets/Documentation/`. Required at Beta (Wednesday Nov 11).
 Write a bug down the moment you see it. Fix the worst ones first.
@@ -24,8 +24,8 @@ Test every fix in the Windows build, not just in the editor.
 | # | What I did -> What happened -> What I expected | How often | Found by | Order (1-4) | Status |
 |---|---|---|---|---|---|
 | 1 | Pressed Esc during the last 10 seconds -> the timer kept counting -> it should stop | Every time | Me | 2 | Fixed |
-| 2 | | | | | |
-| 3 | | | | | |
+| 2 |Changed update to fixed update |jump wasnt being recognized |it to run smoothly |kept not recognizing it |me |fixed, changed back to up
+| 3 |Ghost walls |re- doing script because did not feel like I got it | The walls to disappear with G|Player sprite disappearing instead |me | unresolved
 
 How often: every time / sometimes / once. Found by: me / a tester.
 Status: Fixed / Will fix / Won't fix (because ___).
