@@ -21,7 +21,7 @@ public class GhostAbility : MonoBehaviour
 
         foreach (GameObject wall in ghostWalls)
         {
-            //get the sprite renderer and then if holding G 
+            //get the sprite renderer and then if holding G its disabled
             spriterenderer = wall.GetComponent<SpriteRenderer>();
 
             if (spriterenderer != null)
