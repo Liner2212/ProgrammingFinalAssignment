@@ -4,16 +4,7 @@ public class EnemyDamage : MonoBehaviour
 {
     public PlayerHealth playerHealth;
     public int damage = 1;
-    void Start()
-    {
-        
-    }
-
    
-    void Update()
-    {
-        
-    }
 
     private void OnCollisionEnter2D(Collision2D collision) //if the game object tagged player collides then damage will be dealt. 
     {
