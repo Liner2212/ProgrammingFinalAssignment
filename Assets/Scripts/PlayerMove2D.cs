@@ -75,7 +75,7 @@ public class PlayerMove2D : MonoBehaviour
             if (animator != null)
                 animator.SetBool("isJumping", false);
         }
-        Debug.Log("jumpcounted");
+     
         //I want to make it so if the player is grounded the jump counter resets back again
 
         if (Keyboard.current.leftShiftKey.isPressed)

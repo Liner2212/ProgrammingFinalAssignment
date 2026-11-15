@@ -9,6 +9,6 @@ PhysicsMaterial2D:
   m_Name: noSTICK
   serializedVersion: 2
   friction: 0.01
-  bounciness: 0.59
+  bounciness: -0
   m_FrictionCombine: 0
   m_BounceCombine: 4

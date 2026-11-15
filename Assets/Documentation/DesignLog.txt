@@ -1,4 +1,4 @@
-Design.Log
+DesignLog
 
 
 
@@ -39,3 +39,8 @@ Updates weeks later
 Lots has been added and its the end, I worked for more hours than i thought I would and underestimated the time of some tasks. 
 
 Cuts: Abilities, a lot of wanted animations, boss fight, wall climb/hang
+
+
+2026-11-15
+
+Tweaks and numbers: for player movement I wrote a note in playermove2D, the original movement speed was 5 and it has been tweaked in the inspector to 6, the jumpspeed has been tweaked between 11,12 and 13 and decided on 11 to not give the player too much of an easy time with the jump

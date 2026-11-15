@@ -18,7 +18,7 @@ At least 3 testers. Required for the playtest, Thursday Nov 12.
 | Tester | Did they win, lose or quit? When? | Where did they get stuck or confused? | One thing I saw them do |
 |---|---|---|---|
 | 1. lose and quit|Mid way point | get stuck to the walls| |
-| 2. Get to end, win| confused as where to go in the beginning | hit space a lot | |
+| 2. Get to end, win| confused as where to go in the beginning | hit space a lot, confused over double jump? inconsistency in it | |
 | 3. | | | |
 
 > Example: "Lost at 2:10. Didn't notice the storm was coming. Kept aiming at the first ship after it was already safe."
