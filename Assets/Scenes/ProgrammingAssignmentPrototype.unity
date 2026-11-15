@@ -968,7 +968,6 @@ GameObject:
   - component: {fileID: 110327137}
   - component: {fileID: 110327136}
   - component: {fileID: 110327140}
-  - component: {fileID: 110327141}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1084,20 +1083,6 @@ MonoBehaviour:
   winPanel: {fileID: 213848237}
   lostPanel: {fileID: 1141178991}
   playerControls: {fileID: 2772919361153493261}
---- !u!114 &110327141
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 110327135}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f16594487b3cb2845ac83d2c20ffb4ae, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::NewMonoBehaviourScript
-  mixer: {fileID: 24100000, guid: 58fa503161abb2349a97f0e385551a26, type: 2}
-  volumeSlider: {fileID: 0}
 --- !u!1 &114888033
 GameObject:
   m_ObjectHideFlags: 0
@@ -21554,7 +21539,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1120745155
 RectTransform:
   m_ObjectHideFlags: 0

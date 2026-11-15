@@ -26,7 +26,7 @@ Test every fix in the Windows build, not just in the editor.
 | 1 | Pressed Esc during the last 10 seconds -> the timer kept counting -> it should stop | Every time | Me | 2 | Fixed |
 | 2 |Changed update to fixed update |jump wasnt being recognized |it to run smoothly |kept not recognizing it |me |fixed, changed back to up
 | 3 |Ghost walls |re- doing script because did not feel like I got it | The walls to disappear with G|Player sprite disappearing instead |me | fixed
-4 | Player losing heart when bounce on enemy| every time|me|4|fixing
+4 | Player losing heart when bounce on enemy| every time|me|4|fixing/not fixed
 
 How often: every time / sometimes / once. Found by: me / a tester.
 Status: Fixed / Will fix / Won't fix (because ___).
