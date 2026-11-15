@@ -1,7 +1,7 @@
 # Playtest Record - Final Project
 
-**Name:**
-**Game title:**
+**Carolina Malmros**
+**Restart:**
 
 At least 3 testers. Required for the playtest, Thursday Nov 12.
 
@@ -32,3 +32,7 @@ What did you see, and what would you change because of it?
 > I saw _them get stuck to the walls__, so I would change _the wall climb mechanic and try to fix this__.
 I saw the jump mechanic still being broken and not reading player input and changed fixed update to update because of this and looked at the jump count. I got rid of the door to not confuse the player and have them
 think its something they must avoid at the beginning of the game. I added a physics material to the player to make them stick to the walls less.
+
+
+
+I saw them struggling with the controls and what they can do, I added the game controls on the walls in the beginning to give that information to the player.

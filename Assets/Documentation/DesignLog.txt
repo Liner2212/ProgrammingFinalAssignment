@@ -31,3 +31,11 @@ also want to go into the player script and fix the double jump and also so the p
 Currently: It is the second gate, the level feels a bit one dimensional at the moment? feedback needed. 
 Looking at the slides on 2d and thinking of the movement script. 
 Added just deathzones to the obstacles and enemies for now until health script functionality is added.
+
+
+
+Updates weeks later
+
+Lots has been added and its the end, I worked for more hours than i thought I would and underestimated the time of some tasks. 
+
+Cuts: Abilities, a lot of wanted animations, boss fight, wall climb/hang
