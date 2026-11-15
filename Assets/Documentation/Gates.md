@@ -24,9 +24,9 @@ The pillars are a bit unclear, there is a lot of features so it is hard to pictu
 
 Feedback from Brian (write it down while you talk):
 - Fun: what's fun about it, in one sentence:
-The ghost idea, being able to utilize the ghost in different ways and the movement to make the player fantasy. 
+//The ghost idea, being able to utilize the ghost in different ways and the movement to make the player fantasy. 
 - Scope: the one thing to cut or simplify:
-Alot of the abilities as well as narrow down what it will be exactly, the gameplay loop, and what is reasonable within a week to do
+//Alot of the abilities as well as narrow down what it will be exactly, the gameplay loop, and what is reasonable within a week to do
 - By Wednesday I will prove __my project______ is playable.
 
 Not yet? That's normal. Fix it, then post your revised one-pager in the "Final Project Concepts" thread by Tuesday 18:00.
@@ -44,13 +44,16 @@ Quick ones (still needed, rough is fine, a few minutes each)
 - [ ] Content scope: a short list of counts (example: 1 level, 2 enemy types, 5 sounds)
 1 level, 1 enemy type, 1 ability, 3 sounds, 1 win screen, one main menu, 1 pause screen, 1 HUD, 1 animated player, 1 movement script 
 - [ ] Roadmap: 4 lines, one per stage, each with a date
+- 
 - [ ] Screen flow: a phone photo of a paper sketch of your screens (start, HUD, pause, win and/or lose)
 
 In Unity, recommended
 - [ ] A classmate played it while I watched without saying anything, and I wrote down what they did
 
-Peer review - reviewed by: ________ &nbsp; Go / Not yet: ________
+Peer review - reviewed by: __Viiktoria______ &nbsp; Go / Not yet: ________
 What they said, in one line:
+
+There is some problems with where the player can get stuck and movement, the layout is nice and it would be good to add some more obstacles and make the secret paths clearer. 
 
 ---
 
@@ -64,8 +67,9 @@ In Unity
 - [ ] Every Must feature is in (rough is fine)
 - [ ] No new features after today
 
-Peer review - reviewed by: ________ &nbsp; Go / Not yet: ________
+Peer review - reviewed by: __at home, my friend and Brian played it______ &nbsp; Go / Not yet: ________
 What they said, in one line:
+
 
 ---
 
@@ -80,7 +84,7 @@ In Unity
 - [ ] Start screen, HUD, pause, and win and/or lose screen all work
 - [ ] A Windows build runs
 
-Peer review - reviewed by: ________ &nbsp; Go / Not yet: ________
+Peer review - reviewed by: ___Brian_____ &nbsp; Go / Not yet: ________
 What they said, in one line:
 
 ---
