@@ -38,8 +38,8 @@ Pick 3 features from your Master Feature List.
 
 | Feature | Hours guessed | Hours spent | Why the difference? |
 |---|---|---|---|
-| Player Controller move jump|3 |7-8|Underestimation of bugs, tweaking the stats and figuring out what I really wanted it to be, things breaking easily, not fully understanding how to achieve specific things and getting stuck added to the time. |
-| Pickups| 1.5 |1 | Had scripts also already prepared so spent most of the time renaming things and tagging the pickups as such. |
+| Player Controller move jump|3 |6-7|Underestimation of bugs, tweaking the stats and figuring out what I really wanted it to be, things breaking easily, not fully understanding how to achieve specific things and getting stuck added to the time. |
+| Pickups| 1.5 |2 | Had scripts also already prepared so spent most of the time renaming things and tagging the pickups as such. |
 | Obstacles|2 |4 | Most of the time was spent on placing them out, fixing the colliders and I went back a lot to fix them. The code was mostly only deathzone and then eventually the health script to remove one heart which that system took an hour.
 
 **What does this teach you about scope?** One or two sentences.

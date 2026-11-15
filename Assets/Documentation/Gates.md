@@ -47,13 +47,14 @@ Quick ones (still needed, rough is fine, a few minutes each)
 - 
 - [ ] Screen flow: a phone photo of a paper sketch of your screens (start, HUD, pause, win and/or lose)
 
+
 In Unity, recommended
 - [ ] A classmate played it while I watched without saying anything, and I wrote down what they did
 
-Peer review - reviewed by: __Viiktoria______ &nbsp; Go / Not yet: ________
+Peer review - reviewed by: ______ &nbsp; Go / Not yet: ________
 What they said, in one line:
 
-There is some problems with where the player can get stuck and movement, the layout is nice and it would be good to add some more obstacles and make the secret paths clearer. 
+ 
 
 ---
 
@@ -67,7 +68,7 @@ In Unity
 - [ ] Every Must feature is in (rough is fine)
 - [ ] No new features after today
 
-Peer review - reviewed by: __at home, my friend and Brian played it______ &nbsp; Go / Not yet: ________
+Peer review - reviewed by: _______ &nbsp; Go / Not yet: ________
 What they said, in one line:
 
 
@@ -84,7 +85,7 @@ In Unity
 - [ ] Start screen, HUD, pause, and win and/or lose screen all work
 - [ ] A Windows build runs
 
-Peer review - reviewed by: ___Brian_____ &nbsp; Go / Not yet: ________
+Peer review - reviewed by: ______ &nbsp; Go / Not yet: ________
 What they said, in one line:
 
 ---
@@ -105,6 +106,16 @@ Write a line every time you work on the project. Your post mortem compares these
 
 | Date | Hours | What I worked on |
 |---|---|---|
-| Oct 29 | | |
-| | | |
-| | | |
+| Nov 1st  |3.5 hours | concept / planning first commit, placing a few items out/ working on musts and coulds, player pillars/adding in some assets and inspecting the 2d sample scene again got concept read by classmates and feedback,|
+| Nov 2nd| 2.5 hours|adding in scripts from class/shared scripts, worked on defining the project more, adding in background, player, deciding the style again and starting graybox
+| Nov 3rd | 3 hours | Grayboxing more , changing assets, adding in coin pickup and deathzones, tweaking playermove script, planning on a double jump. Working on environment and movement|
+| Nov 4th | 4 hours | worked on making a goal area, finished grayboxing the day before, added in enemies and obstacles, jumpboost pads, added jumpcount, checking is the player grounded//overhaul of the jumping system |
+| Nov 5th | 25 minutes | Just briefly worked on the environment and moving around the background and layers|
+| Nov 7th| 2 hour |Moving things around, redesigning the last bit, checking if level is buildable |
+|Nov 8 th |2 hours | worked on tweaking settings/player input, designing the player, testing the level/having it tested, trying to fix the wall stick bug, added in game manager and having the menu fully functional |
+|Nov 9th | 3 hours | Worked on winscreen, placing out more assets, trying to add fog, worked on making lava/water as well, check why space wasnt reading all the jumps
+| Nov 10th |1.5 hours| worked on debugging (solved) 
+|Nov 11th | 4 hours | worked on the final ghost, adding in animations/having them triggered when jumping/scrapped jump animations and replaced it with the running one as it fit better/the jumping animation did not work out. Worked on the ghost ability as well + Slime stomp script/destroying enemies + adding in music and player health + new assets/doing an overhaul of assets|
+| Nov 12 |Game testing day+ polish and fix ghost ability | 2 hours|
+ |Nov 13 | 40 min | Merging (a mistake happened) fixing missing items/merge errors
+ |Nov 15th |4 hours |final touches, tweaking things and finishing documentation|
